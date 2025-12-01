@@ -7,7 +7,6 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // load user on refresh
   useEffect(() => {
     const init = async () => {
       const token = localStorage.getItem("access_token");
