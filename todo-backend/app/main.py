@@ -4,9 +4,14 @@ from app.routers import auth_router, todo_router, user_router
 
 app = FastAPI(title="Todo Backend")
 
+origins = [
+    "https://todo-mk3wmlm4m-pushpak-pandharpattes-projects.vercel.app",
+    "http://localhost:3000",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Or specify frontend URL
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
