@@ -1,5 +1,3 @@
-
-
 from typing import Optional
 from bson import ObjectId
 from app.db.mongodb import users_collection

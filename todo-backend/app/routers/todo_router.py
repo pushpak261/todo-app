@@ -1,5 +1,3 @@
-
-
 from fastapi import APIRouter, Depends
 from typing import List
 from app.schemas.todo_schema import TodoCreate, TodoPublic, TodoUpdate

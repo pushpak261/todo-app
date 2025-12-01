@@ -1,4 +1,3 @@
-
 from fastapi import HTTPException, status
 from app.repositories.user_repository import UserRepository
 from app.schemas.user_schema import UserCreate, UserPublic, UserInDB

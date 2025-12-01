@@ -1,5 +1,3 @@
-
-
 from typing import List, Optional
 from bson.objectid import ObjectId
 from app.db.mongodb import todos_collection

@@ -1,5 +1,3 @@
-
-
 from fastapi import APIRouter, Depends
 from app.schemas.user_schema import UserCreate, UserPublic
 from app.schemas.auth_schema import LoginRequest, Token

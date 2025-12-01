@@ -1,5 +1,3 @@
-
-
 from typing import List
 from fastapi import HTTPException
 from app.repositories.todo_repository import TodoRepository
