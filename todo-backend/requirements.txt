@@ -1,9 +1,8 @@
-fastapi[all]
+fastapi
 uvicorn
+pydantic
+python-jose
+passlib[bcrypt]
+dnspython
 pymongo
 python-dotenv
-passlib[bcrypt]
-pyjwt
-bcrypt
-dnspython
-pydantic
