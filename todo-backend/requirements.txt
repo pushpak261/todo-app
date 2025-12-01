@@ -12,3 +12,4 @@ email-validator==2.2.0
 anyio==4.6.2
 typing-extensions==4.12.2
 starlette==0.41.3
+certifi==2024.8.30
